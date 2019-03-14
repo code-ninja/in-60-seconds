@@ -4,7 +4,7 @@
 
 ## Add Some Slide Candy
 
-![](assets/img/presentation.png)
+![](assets/img/slackbot-logo.jpg)
 
 ---
 @title[Customize Slide Layout]
