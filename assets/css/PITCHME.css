@@ -39,3 +39,10 @@
   padding-top: 1.95em;
   padding-bottom: 1.95em;
 }
+
+.message-box {
+  width: 80%;
+  border-radius: 20px;
+  background-color: black;
+  padding: 20px 20px !important;
+}
