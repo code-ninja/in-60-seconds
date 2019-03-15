@@ -4,8 +4,8 @@
 
 ---
 
-#### Based off Takanori Suzuki's
-**Automate the Boring Stuff with Slackbot**
+#### Based off **Takanori Suzuki's**
+*Automate the Boring Stuff with Slackbot*
 #### PyCon APAC 2019 talk
 
 ![Takanori Suzuki](assets/img/takanory.jpg)
@@ -15,13 +15,13 @@
 
 @snap[west span-50]
 ## We will learn how to integrate
-@img[fragment](assets/img/logo/slack-logo.png?size=50%)
+@img[span-40 fragment](assets/img/logo/slack-logo.png?size=50%)
 @snapend
 
 @snap[east span-50]
-@img[fragment](assets/img/logo/shebang-logo.png)
-@img[fragment](assets/img/logo/python-logo.png)
-@img[fragment](assets/img/logo/jira-logo.jpg)
+@img[span-30 fragment](assets/img/logo/shebang-logo.png)
+@img[span-30 fragment](assets/img/logo/python-logo.png)
+@img[span-30 fragment](assets/img/logo/jira-logo.jpg)
 @snapend
 
 ---?color=#E58537
