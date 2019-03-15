@@ -1,12 +1,12 @@
----?image=assets/img/logo/slackbot-logo.png&size=90%&opacity=25
+---?image=assets/img/logo/slackbot-logo.jpg&size=90%&opacity=25
 
 # Using Slackbot in our Daily Workflow
 
 ---
 
-## Based off Takanori Suzuki's
-[Automate the Boring Stuff with Slackbot](https://gitpitch.com/takanory/slides?p=20190224pyconapac)
-## PyCon APAC 2019 talk
+#### Based off Takanori Suzuki's
+**[Automate the Boring Stuff with Slackbot]**(https://gitpitch.com/takanory/slides?p=20190224pyconapac)
+#### PyCon APAC 2019 talk
 
 ![Takanori Suzuki](assets/img/takanory.jpg)
 
@@ -15,7 +15,7 @@
 
 @snap[west span-50]
 ## We will learn how to integrate
-@img[fragment](assets/img/logo/slack-logo.png)
+@img[fragment](assets/img/logo/slack-logo.png?size=50%)
 @snapend
 
 @snap[east span-50]
