@@ -1,6 +1,6 @@
 ---?image=assets/img/logo/slackbot-logo.jpg&size=90%
 
-@box[message-box text-yellow text-30 fragment](Using Slackbot in our Daily Workflow)
+@box[message-box text-yellow text-20 fragment](Using Slackbot in our Daily Workflow)
 
 ---
 
