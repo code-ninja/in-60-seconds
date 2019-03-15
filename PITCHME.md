@@ -1,20 +1,27 @@
-# Let's Get Started
+# Slackbot Integration
 
 ---
 
-## Add Some Slide Candy
+## Based off Takanori Suzuki's
+[Automate the Boring Stuff with Slackbot](https://gitpitch.com/takanory/slides?p=20190224pyconapac)
+## PyCon APAC 2019 talk
 
-![](assets/img/slackbot-logo.jpg)
+![Takanori Suzuki](assets/img/takanory.jpg)
 
 ---
-@title[Customize Slide Layout]
+@title[Discussion]
 
 @snap[west span-50]
-## Customize Slide Content Layout
+## Discussion
+![Slack](assets/img/logo/slack-logo.png)
 @snapend
 
 @snap[east span-50]
-![](assets/img/presentation.png)
+@ul[spaced text-white]
+- ![Shebang](assets/img/logo/shebang-logo.png)
+- ![Python](assets/img/logo/python-logo.png)
+- ![Jira](assets/img/logo/jira-logo.jpg)
+@ulend
 @snapend
 
 ---?color=#E58537
