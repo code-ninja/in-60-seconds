@@ -35,10 +35,8 @@
 
 #boxed-text {
   background-color: #004492;
+  border-radius: 20px;
+  padding-top: 1.95em;
+  padding-bottom: 1.95em;
 }
 
-.message-box {
-  width: 80%;
-  border-radius: 20px;
-  padding: 20px 20px !important;
-}
