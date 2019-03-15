@@ -1,6 +1,6 @@
 ---?image=assets/img/logo/slackbot-logo.jpg&size=90%
 
-@box[rounded fragment](Using Slackbot in our Daily Workflow)
+@box[message-box fragment](Using Slackbot in our Daily Workflow)
 
 ---
 
