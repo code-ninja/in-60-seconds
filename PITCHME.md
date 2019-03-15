@@ -1,11 +1,11 @@
----?image=assets/img/logo/slackbot-logo.jpg&size=90%&opacity=25
+---?image=assets/img/logo/slackbot-logo.jpg&size=cover&opacity=40
 
 # Using Slackbot in our Daily Workflow
 
 ---
 
 #### Based off Takanori Suzuki's
-**[Automate the Boring Stuff with Slackbot]**(https://gitpitch.com/takanory/slides?p=20190224pyconapac)
+**Automate the Boring Stuff with Slackbot**
 #### PyCon APAC 2019 talk
 
 ![Takanori Suzuki](assets/img/takanory.jpg)
