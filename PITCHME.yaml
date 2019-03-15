@@ -42,9 +42,9 @@ published : true
 # Background Settings
 # Doc: https://gitpitch.com/docs/settings/background
 #
-background : assets/img/logo/slackbot-logo.jpg
-background-opacity : 25
-background-size : auto 90%
+# background : assets/img/logo/slackbot-logo.jpg
+# background-opacity : 25
+# background-size : auto 90%
 
 #
 # Twitter Card Settings [Pro Only]

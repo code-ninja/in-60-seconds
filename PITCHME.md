@@ -1,4 +1,6 @@
-# Slackbot Integration
+---?image=assets/img/logo/slackbot-logo.png&size=90%&opacity=25
+
+# Using Slackbot in our Daily Workflow
 
 ---
 
@@ -12,16 +14,14 @@
 @title[Discussion]
 
 @snap[west span-50]
-## Discussion
-![Slack](assets/img/logo/slack-logo.png)
+## We will learn how to integrate
+@img[fragment](assets/img/logo/slack-logo.png)
 @snapend
 
 @snap[east span-50]
-@ul[spaced text-white]
-- ![Shebang](assets/img/logo/shebang-logo.png)
-- ![Python](assets/img/logo/python-logo.png)
-- ![Jira](assets/img/logo/jira-logo.jpg)
-@ulend
+@img[fragment](assets/img/logo/shebang-logo.png)
+@img[fragment](assets/img/logo/python-logo.png)
+@img[fragment](assets/img/logo/jira-logo.jpg)
 @snapend
 
 ---?color=#E58537
