@@ -14,14 +14,20 @@
 @title[Discussion]
 
 @snap[west span-50]
-## We will learn how to integrate
-@img[span-40 fragment](assets/img/logo/slack-logo.png?size=50%)
+### We will learn how to integrate
+@img[span-40 fragment](Slack#assets/img/logo/slack-logo.png?size=50%)
 @snapend
 
-@snap[east span-50]
-@img[span-30 fragment](assets/img/logo/shebang-logo.png)
-@img[span-30 fragment](assets/img/logo/python-logo.png)
-@img[span-30 fragment](assets/img/logo/jira-logo.jpg)
+@snap[north-east span-60]
+@img[span-30 fragment](Jira Software#assets/img/logo/jira-logo.jpg)
+@snapend
+
+@snap[east span-60]
+@img[span-30 fragment](Python#assets/img/logo/python-logo.png)
+@snapend
+
+@snap[south-east span-60]
+@img[span-30 fragment](Any other script#assets/img/logo/shebang-logo.png)
 @snapend
 
 ---?color=#E58537
