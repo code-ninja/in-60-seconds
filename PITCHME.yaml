@@ -39,6 +39,12 @@ footnote : "All Rights Reserved. Copyright © 2019. Import Genius + Code Ninja"
 published : true
 
 #
+# Syntax Highlighting
+# Doc: https://gitpitch.com/docs/settings/highlight
+#
+highlight : mono-blue
+
+#
 # Background Settings
 # Doc: https://gitpitch.com/docs/settings/background
 #
