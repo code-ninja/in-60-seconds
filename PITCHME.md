@@ -13,21 +13,24 @@
 ---
 @title[Discussion]
 
-@snap[midpoint text-center span-60]
+@snap[north-west text-center span-50]
 #### We will learn how to integrate
-@img[](assets/img/logo/slack-logo.png)
 @snapend
 
-@snap[north-east span-60]
-@img[span-30 fragment](assets/img/logo/jira-logo.png)
+@snap[west span-50]
+@img[span-40 fragment](assets/img/logo/slack-logo.png)
 @snapend
 
-@snap[east span-60]
-@img[span-30 fragment](assets/img/logo/python-logo.png)
+@snap[north-east span-50]
+@img[span-40 fragment](assets/img/logo/jira-logo.png)
 @snapend
 
-@snap[south-east span-60]
-@img[span-30 fragment](assets/img/logo/shebang-logo.png)
+@snap[east span-50]
+@img[span-40 fragment](assets/img/logo/python-logo.png)
+@snapend
+
+@snap[south-east span-50]
+@img[span-40 fragment](assets/img/logo/shebang-logo.png)
 @snapend
 
 ---?color=#E58537
