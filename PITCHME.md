@@ -19,15 +19,15 @@
 @snapend
 
 @snap[north-east span-60]
-@img[fragment](assets/img/logo/jira-logo.jpg)
+@img[span-30 fragment](assets/img/logo/jira-logo.jpg)
 @snapend
 
 @snap[east span-60]
-@img[fragment](assets/img/logo/python-logo.png)
+@img[span-30 fragment]( assets/img/logo/python-logo.png)
 @snapend
 
 @snap[south-east span-60]
-@img[fragment](assets/img/logo/shebang-logo.png)
+@img[span-30 fragment](assets/img/logo/shebang-logo.png)
 @snapend
 
 ---?color=#E58537
