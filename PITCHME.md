@@ -19,7 +19,7 @@
 @snapend
 
 @snap[north-east span-60]
-@img[span-30 fragment](assets/img/logo/jira-logo.jpg)
+@img[span-30 fragment](assets/img/logo/jira-logo.png)
 @snapend
 
 @snap[east span-60]
