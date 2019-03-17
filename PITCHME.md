@@ -15,19 +15,19 @@
 
 @snap[west span-50]
 ### We will learn how to integrate
-@box[span-40 fragment](Slack#assets/img/logo/slack-logo.png?size=50%)
+@img[span-40 fragment](assets/img/logo/slack-logo.png?size=50%)
 @snapend
 
 @snap[north-east span-60]
-@box[fragment](Jira Software#assets/img/logo/jira-logo.jpg)
+@img[fragment](assets/img/logo/jira-logo.jpg)
 @snapend
 
 @snap[east span-60]
-@box[span-30 fragment](Python#)@img(assets/img/logo/python-logo.png)
+@img[fragment](assets/img/logo/python-logo.png)
 @snapend
 
 @snap[south-east span-60]
-@box[fragment](Any other script#assets/img/logo/shebang-logo.png)
+@img[fragment](assets/img/logo/shebang-logo.png)
 @snapend
 
 ---?color=#E58537
