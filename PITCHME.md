@@ -40,7 +40,6 @@
 #### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
 @snapend
 
-@snap[west span-55]
 ```
 from slackbot.bot import listen_to, respond_to, default_reply
 import re
@@ -51,11 +50,6 @@ import requests
 def my_default_handler(message):
     message.reply('I currently have no response for that. Yet.')
 ```
-@snapend
-
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
 
 ---?image=assets/img/presenter.jpg
 
