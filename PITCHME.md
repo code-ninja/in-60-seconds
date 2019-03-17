@@ -14,8 +14,8 @@
 @title[Discussion]
 
 @snap[midpoint text-center span-60]
-### We will learn how to integrate
-@img[fragment](assets/img/logo/slack-logo.png?size=50%)
+#### We will learn how to integrate
+@img[](assets/img/logo/slack-logo.png)
 @snapend
 
 @snap[north-east span-60]
