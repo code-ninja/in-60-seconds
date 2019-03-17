@@ -22,8 +22,8 @@
 @box[fragment](Jira Software#assets/img/logo/jira-logo.jpg)
 @snapend
 
-@snap[span-60]
-@box[span-30 fragment](Python#assets/img/logo/python-logo.png)
+@snap[east span-60]
+@box[span-30 fragment](Python#)@img(assets/img/logo/python-logo.png)
 @snapend
 
 @snap[south-east span-60]
