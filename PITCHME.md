@@ -40,7 +40,7 @@
 #### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
 @snapend
 
-```
+```Python
 from slackbot.bot import listen_to, respond_to, default_reply
 import re
 import requests
