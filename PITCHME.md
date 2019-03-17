@@ -41,12 +41,16 @@
 @snapend
 
 @snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
+```
+from slackbot.bot import listen_to, respond_to, default_reply
+import re
+import requests
+
+
+@default_reply
+def my_default_handler(message):
+    message.reply('I currently have no response for that. Yet.')
+```
 @snapend
 
 @snap[east span-45]
