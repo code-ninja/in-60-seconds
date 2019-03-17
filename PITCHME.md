@@ -17,20 +17,20 @@
 #### We will learn how to integrate
 @snapend
 
-@snap[west span-50]
-@img[span-40 fragment](assets/img/logo/slack-logo.png)
+@snap[center span-50]
+@img[span-50 fragment](assets/img/logo/slack-logo.png)
 @snapend
 
 @snap[north-east span-50]
-@img[span-40 fragment](assets/img/logo/jira-logo.png)
+@img[span-35 fragment](assets/img/logo/jira-logo.png)
 @snapend
 
 @snap[east span-50]
-@img[span-40 fragment](assets/img/logo/python-logo.png)
+@img[span-35 fragment](assets/img/logo/python-logo.png)
 @snapend
 
 @snap[south-east span-50]
-@img[span-40 fragment](assets/img/logo/shebang-logo.png)
+@img[span-35 fragment](assets/img/logo/shebang-logo.png)
 @snapend
 
 ---?color=#E58537
