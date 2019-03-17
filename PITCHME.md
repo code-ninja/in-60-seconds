@@ -14,7 +14,7 @@
 @title[Discussion]
 
 @snap[north-west text-center span-50]
-### We will learn how to integrate
+#### We will learn how to integrate
 @snapend
 
 @snap[center span-50]
