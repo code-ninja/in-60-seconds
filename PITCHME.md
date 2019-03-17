@@ -23,7 +23,7 @@
 @snapend
 
 @snap[east span-60]
-@img[span-30 fragment]( assets/img/logo/python-logo.png)
+@img[span-30 fragment](assets/img/logo/python-logo.png)
 @snapend
 
 @snap[south-east span-60]
