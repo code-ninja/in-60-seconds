@@ -4,6 +4,11 @@
 ---
 
 ## What is empathy?
+![CanIEatIt](assets/img/canieat.gif)
+
+---
+
+## What is empathy?
 
 @ul[spaced text-white]
 - To feel how others feel
