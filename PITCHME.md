@@ -81,7 +81,7 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 @img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
 @snapend
 
-@snap[south]
+@snap[center]
 #### You will be given a **unique Webhook URL** *per channel*
 ```Bash
 # Sample webhook URL:
