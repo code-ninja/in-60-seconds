@@ -211,6 +211,7 @@ if __name__ == "__main__":
 +++
 @title[Install to Workspace]
 In Slack, browse the  **Apps** then click Install when we find the app we created.
+
 @img[center span-50](https://puu.sh/D1F4V/790902f4a1.png)
 
 Then, let's invite our bot to a channel.
