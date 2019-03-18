@@ -64,7 +64,7 @@ See: [Building Slack apps](https://api.slack.com/slack-apps)
 +++
 
 #### Save your app credentials, for example, in a *.env* file
-In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to lead these like so:
+In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to load these like so:
 ```text
 .
 ├── .env
@@ -87,7 +87,9 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 +++
 
+@snap[span-50]
 @img[Authorize App and choose the Channel](https://puu.sh/D1xZX/958aca4ec9.png)
+@snapend
 
 #### You will be given a unique Webhook URL *per channel*
 ```Bash
