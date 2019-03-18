@@ -15,7 +15,7 @@
 @title[What We'll learn]
 
 @snap[north-west text-center span-50]
-#### We will learn how to integrate
+#### We can integrate
 @snapend
 
 @snap[center span-50]
@@ -126,17 +126,17 @@ requests.post(URL, data=data)
 ---
 @title[Creating Slackbots]
 
-## Let's Create a Bot for our Slack App
+## Let's Create a Bot for our Slack App!
 
 +++
 @title[Overview]
-## Overview:
+## Overview
 @ul
-- #### We will enable bots for our app.
-- #### We will create a Bot, which generates an OAth token.
-- #### We will use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
-- #### We will install our App to our Workspace
-- #### We will invite the Bot to a channel where it can respond to.
+- We will enable bots for our app.
+- We will create a Bot, which generates an OAth token.
+- We will use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
+- We will install our App to our Workspace
+- We will invite the Bot to a channel where it can respond to.
 @ulend
 
 +++
