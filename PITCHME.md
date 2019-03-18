@@ -42,7 +42,7 @@
 
 @snap[north]
 #### This is your app dashboard
-
+<br />
 @snapend
 
 @snap[west span-35 text-right]
