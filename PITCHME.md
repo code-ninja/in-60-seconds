@@ -57,12 +57,14 @@ Despite it seeming like a pragmatic industry:
 
 ---
 
-## Here's a few examples of how we can practice empathy in our workplace:
+## Here's a few examples of how we can practice empathy in our workplace
 
 ---
 
-## Keep the users in mind
-#### They will be the ones using our software, so the UI/UX must be for their benefit
+## Keep the end users in mind
+@ul[spaced text-white]
+#### They will be the ones using our software, so the user interface and experience must be for their benefit
+@ulend
 
 ---
 
