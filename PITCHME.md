@@ -59,18 +59,24 @@ See: [Building Slack apps](https://api.slack.com/slack-apps)
 
 +++
 
-#### Save your app credentials, for example, in a *.env* file
+Save your app credentials, for example, in a *.env* file
 In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to load these like so:
-```text
-.
-├── .env
-└── settings.py
-```
 
+```ENV
+# .env
+CLIENT_ID='XXXXXXXXXXX.XXXXXXXXXXXX'
+CLIENT_SECRET='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+VERIFICATION_TOKEN='XXXXXXXXXXXXXXXXXXXXXXXX'
+```
 ```Python
 # settings.py
 from dotenv import load_dotenv
 load_dotenv()
+```
+```text
+.
+├── .env
+└── settings.py
 ```
 
 +++
