@@ -63,7 +63,7 @@ Despite it seeming like a pragmatic industry:
 
 ## Keep the end users in mind
 @ul[spaced text-white]
-#### They will be the ones using our software, so the user interface and experience must be for their benefit
+They will be the ones using our software, so the user interface and experience must be for their benefit
 @ulend
 
 ---
