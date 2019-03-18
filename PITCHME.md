@@ -42,13 +42,9 @@
 
 #### This is your app dashboard
 
-@snap[west span-30]
-@img[Sidebar](https://puu.sh/D1yjy/790b023b66.png)
-@snapend
+@img[west span-30](https://puu.sh/D1yjy/790b023b66.png)
 
-@snap[east span-65]
-@img[](https://puu.sh/D1vRL/66ea9878e9.png)
-@snapend
+@img[east span-65](https://puu.sh/D1vRL/66ea9878e9.png)
 
 See: [Building Slack apps](https://api.slack.com/slack-apps)
 
@@ -71,10 +67,8 @@ load_dotenv()
 +++
 
 #### Activate Incoming Webhooks for your app
-@snap[center]
-@img[](https://puu.sh/D1xTn/b301770221.png)
+@img[center span-60](https://puu.sh/D1xTn/b301770221.png)
 See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
-@snapend
 
 +++
 
@@ -83,7 +77,7 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 @snapend
 
 @snap[east span-50]
-@img[Authorize the App and choose the Channel](https://puu.sh/D1xZX/958aca4ec9.png)
+@img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
 @snapend
 
 #### You will be given a **unique Webhook URL** *per channel*
