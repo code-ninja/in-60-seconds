@@ -62,13 +62,12 @@ Despite it seeming like a pragmatic industry:
 ---
 
 ## Keep the end users in mind
-They will be the ones using our software, so the user interface and experience must be for their benefit
+They will be the ones using our software, so the user interface and experience must be for their benefit.
 
 ---
 
 ## Ensure that everyone understands the tech stack
-Don't bring in new technology just because everyone else does, make the right tradeoffs and ensure that the entire development team understands this technology
-
+Don't bring in new technology just because everyone else does, make the right tradeoffs and ensure that the entire development team understands the tech stack.
 ---
 
 ## Write code for developers, not for machines
@@ -77,7 +76,7 @@ Make sure that it's readable and can be understood by your co-developers. Make a
 ---
 
 ## Don't do C.Y.A.E (Cover your ass engineering)
-Don't throw your teammates under the bus, instead, try to help others out and make yourself accountable for them
+Don't throw your teammates under the bus, instead, try to help others out and make yourself accountable for them.
 
 ---
 
@@ -86,4 +85,4 @@ As software developers, we often get stereotyped as hoodie-wearing, data-driven,
 
 ---
 
-#Thank you!
+# Thank you!
