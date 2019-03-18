@@ -62,7 +62,7 @@ See: [Building Slack apps](https://api.slack.com/slack-apps)
 +++
 
 @title[Tokens and .ENV File]
-Save your app credentials, for example, in a *.env* file
+Save your app credentials, for example, in a *.env* file. <br />
 In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to load these like so:
 
 ```Bash
@@ -93,8 +93,7 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 +++
 @title[Webhook URL]
 #### Authorize the App and choose the Channel
-@img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
-
+@img[span-35](https://puu.sh/D1xZX/958aca4ec9.png)
 
 #### You will be given a **unique Webhook URL** *per channel*
 ```Bash
@@ -121,7 +120,7 @@ URL = (
 
 @img[Post from Python](https://puu.sh/D1ybm/da5515bfb4.png)
 
---
+---
 @title[Creating Slackbots]
 
 ## Let's Create a Bot for our Slack App
