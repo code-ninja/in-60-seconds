@@ -33,23 +33,65 @@
 @img[span-35 fragment](assets/img/logo/shebang-logo.png)
 @snapend
 
----?color=#E58537
-@title[Add A Little Imagination]
+---
+@title[Creating Slack Apps]
 
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
-@snapend
+## Creating Slack Apps
+
++++
+
+@img[](https://puu.sh/D1vCk/a0fff2974d.png)
+See: [Building Slack apps](https://api.slack.com/slack-apps)
+
++++
+@img[](https://puu.sh/D1vRL/66ea9878e9.png)
+
+#### Save your app credentials, for example, in a *.env* file
+In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to lead these like so:
+```text
+.
+├── .env
+└── settings.py
+```
 
 ```Python
-from slackbot.bot import listen_to, respond_to, default_reply
-import re
+# settings.py
+from dotenv import load_dotenv
+load_dotenv()
+```
+
++++
+
+#### Activate Incoming Webhooks for your app
+@snap[center span-40]
+@img[](https://puu.sh/D1xTn/b301770221.png)
+See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
+@snapend
+
+@img[Authorize App and choose the Channel](https://puu.sh/D1xZX/958aca4ec9.png)
+```Bash
+# Sample webhook URL:
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+```
+
++++
+
+#### Sample POST Request using Python
+```Python
+import json
 import requests
 
+data = json.dumps({'text': 'Ahoy from Python!'})
 
-@default_reply
-def my_default_handler(message):
-    message.reply('I currently have no response for that. Yet.')
+URL = (
+    "https://hooks.slack.com"
+    "/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+)
+
+    requests.post(URL, data=data)
 ```
+
+@img[Post from Python](https://puu.sh/D1ybm/da5515bfb4.png)
 
 ---?image=assets/img/presenter.jpg
 
