@@ -143,6 +143,12 @@ requests.post(URL, data=data)
 @ulend
 
 +++
+@title[Bot File Structure]
+
+@snap[north text-blue]
+## File Structure
+@snapend
+
 ```Bash
 # File structure for our bot
 
