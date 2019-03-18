@@ -106,7 +106,6 @@ https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 Sample POST Request using Python
 ```Python
 # sample_webhook.py
-
 import json
 import requests
 
@@ -124,7 +123,7 @@ Run the python file to send the message to Slack:
 ```Bash
 (venv) $ python sample_webhook.py
 ```
-@img[Post from Python](https://puu.sh/D1ybm/da5515bfb4.png)
+@img[center span-50](https://puu.sh/D1ybm/da5515bfb4.png)
 
 ---
 @title[Creating Slackbots]
