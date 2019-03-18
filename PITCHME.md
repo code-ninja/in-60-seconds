@@ -130,13 +130,16 @@ requests.post(URL, data=data)
 
 +++
 @title[Overview]
+@snap[north]
 ## Overview
+@snapend
+
 @ul
-- We will enable bots for our app.
-- We will create a Bot, which generates an OAth token.
-- We will use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
-- We will install our App to our Workspace
-- We will invite the Bot to a channel where it can respond to.
+- Enable bots for our app.
+- Create a Bot, which generates an OAth token.
+- Use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
+- Install our App to our Workspace
+- Invite the Bot to a channel where it can respond to.
 @ulend
 
 +++
