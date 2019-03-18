@@ -120,6 +120,75 @@ URL = (
 
 @img[Post from Python](https://puu.sh/D1ybm/da5515bfb4.png)
 
+--
+@title[Creating Slackbots]
+
+## Creating Slack Apps
+
++++
+@title[Overview]
+@ul
+
+- Plain text list item @note[Cool! Fragment specific speaker notes :)]
+- Rich **markdown** list *item*
+- Link [within](https://gitpitch.com) list item @note[Fragment specific speaker notes are optional.]
+
+@ulend
+
++++
+@title[Bot User]
+
+@img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
+
++++
+@title[OAuth Tokens]
+
+@img[center span-60](https://puu.sh/D1DR9/c917b0ea65.png)
+
+@title[File structure]
+```text
+ig_databot/
+├── venv/  # Virtual Environment
+├── ig_databot/plugins/
+│   ├── __init__.py # empty file
+│   └── ig_databot.py
+├── run.py
+└── slackbot_settings.py
+```
++++
+@title[Slackbot module and settings]
+I installed Python's [slackbot module](https://github.com/lins05/slackbot).
+
+```Python
+from slackbot.bot import listen_to, respond_to
+
+
+@respond_to('Ahoy')
+def hello(message):
+    message.reply('Matey!')
+```
+
++++
+@title[Settings and Run file]
+```Python
+# slackbot_settings.py
+API_TOKEN = 'xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
+PLUGINS = ['plugins.ig_databot']
+```
+```Python
+# run.py
+from slackbot.bot import Bot
+
+
+def main():
+    dataBot = Bot()
+    dataBot.run()
+
+
+if __name__ == "__main__":
+    main()
+```
+
 ---?image=assets/img/presenter.jpg
 
 @snap[north span-100 headline]
