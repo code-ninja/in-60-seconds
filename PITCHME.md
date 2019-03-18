@@ -4,8 +4,12 @@
 
 ## What is empathy?
 
+@snap[west span-55]
+@ul[spaced text-white]
 - Feeling how others feel
 - Making a connection
+@ulend
+@snapend
 
 ---
 @title[Customize Slide Layout]
