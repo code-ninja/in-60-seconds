@@ -74,7 +74,7 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 +++
 
 #### Authorize the App and choose the Channel
-@img[span-60](https://puu.sh/D1xZX/958aca4ec9.png)
+@img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
 
 
 #### You will be given a **unique Webhook URL** *per channel*
