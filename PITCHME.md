@@ -41,12 +41,18 @@
 +++
 #### This is your app dashboard
 
-@snap[center span-50]
+@snap[west span-40]
+@img[](https://puu.sh/D1yjy/790b023b66.png)
+@snapend
+
+@snap[east span-50]
 @img[](https://puu.sh/D1ygM/d2617ab492.png)
 @snapend
+
 See: [Building Slack apps](https://api.slack.com/slack-apps)
 
 +++
+
 @snap[west span-50]
 @img[Sidebar](https://puu.sh/D1yjy/790b023b66.png)
 @snapend
