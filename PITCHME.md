@@ -1,10 +1,11 @@
-# Let's Get Started
+# Empathy Maketh an Engineer
 
 ---
 
-## Add Some Slide Candy
+## What is empathy?
 
-![](assets/img/presentation.png)
+- Feeling how others feel
+- Making a connection
 
 ---
 @title[Customize Slide Layout]
