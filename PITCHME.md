@@ -158,7 +158,7 @@ This is our Bot User's settings.
 @img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
 
 We can give it a custom name and @mention handle so it's easy to call.
-@box[message-box text-yellow center](Make sure to tick **Always Show my Bot as Online**)
+Make sure to tick **Always Show my Bot as Online**.
 
 +++
 @title[OAuth Token and Settings]
@@ -188,7 +188,7 @@ def hello(message):
 +++
 @[Run dot Py]
 We will have this script run in the background for our slackbot to work.
-(We can also have this installed as a service)
+We can also have this installed as a service.
 ```Python
 # run.py
 from slackbot.bot import Bot
