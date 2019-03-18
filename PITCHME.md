@@ -6,8 +6,21 @@
 ## What is empathy?
 
 @ul[spaced text-white]
-- Feeling how others feel
-- Making a connection
+- To feel how others feel
+- To make a connection with others
+- The ability to understand and share another's feelings
+@ulend
+
+---
+
+## Why should we practice empathy in software engineering?
+
+
+Despite it seeming like a pragmatic industry:
+@ul[spaced text-white]
+- Software is built by humans
+- Software is built with humans
+- Software is build for humans
 @ulend
 
 ---
