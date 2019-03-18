@@ -68,6 +68,7 @@ load_dotenv()
 
 #### Activate Incoming Webhooks for your app
 @img[center span-60](https://puu.sh/D1xTn/b301770221.png)
+
 See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 +++
