@@ -17,6 +17,9 @@
 ---
 
 ## What benefits are there from being empathetic?
+![Loading](assets/img/feelbro.gif)
+
+---
 
 @ul[spaced text-white]
 - You'll better understand other people's needs and where they are coming from
@@ -27,7 +30,9 @@
 ---
 
 ## Why should we practice empathy in software engineering?
+![Loading](assets/img/loading.gif)
 
+---
 
 Despite it seeming like a pragmatic industry:
 @ul[spaced text-white]
