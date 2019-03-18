@@ -118,8 +118,6 @@ URL = (
 
 requests.post(URL, data=data)
 ```
-
-Run the python file to send the message to Slack:
 ```Bash
 (venv) $ python sample_webhook.py
 ```
@@ -132,11 +130,13 @@ Run the python file to send the message to Slack:
 
 +++
 @title[Overview]
-#### Overview:
+## Overview:
 @ul
-- We will enable bots for our app.
-- We will create a Bot, which generates an OAth token.
-- We will use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
+- #### We will enable bots for our app.
+- #### We will create a Bot, which generates an OAth token.
+- #### We will use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
+- #### We will install our App to our Workspace
+- #### We will invite the Bot to a channel where it can respond to.
 @ulend
 
 +++
