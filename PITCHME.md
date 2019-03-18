@@ -44,11 +44,11 @@
 #### This is your app dashboard
 @snapend
 
-@snap[west span-35]
+@snap[west span-35 text-right]
 @img[span-60](https://puu.sh/D1yjy/790b023b66.png)
 @snapend
 
-@snap[east span-55]
+@snap[east span-55 text-left]
 @img[span-80](https://puu.sh/D1vRL/66ea9878e9.png)
 @snapend
 
