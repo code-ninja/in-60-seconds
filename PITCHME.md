@@ -73,21 +73,19 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 +++
 
-@snap[west span-50]
-#### Authorize the App and choose the Channel
+@snap[west span-30]
+Authorize the App and choose the Channel
 @snapend
 
-@snap[east span-50]
+@snap[east span-60]
 @img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
 @snapend
 
-@snap[center]
 #### You will be given a **unique Webhook URL** *per channel*
 ```Bash
 # Sample webhook URL:
 https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 ```
-@snapend
 
 +++
 
