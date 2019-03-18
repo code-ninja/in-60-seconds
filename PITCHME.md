@@ -145,8 +145,8 @@ requests.post(URL, data=data)
 +++
 @title[Bot File Structure]
 
-@snap[north text-blue]
-#### File Structure
+@snap[north h3-blue]
+### File Structure
 @snapend
 
 ```Bash
