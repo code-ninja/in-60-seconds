@@ -52,9 +52,38 @@ Despite it seeming like a pragmatic industry:
 - Listen
 - Find the deepest "Why"
 - Be vulnerable
-- Respect
+- Respect others' time
 @ulend
 
 ---
 
-## It's in the small things...
+## Here's a few examples of how we can practice empathy in our workplace:
+
+---
+
+## Keep the users in mind
+#### They will be the ones using our software, so the UI/UX must be for their benefit
+
+---
+
+## Ensure that everyone understands the tech stack
+#### Don't bring in new technology just because everyone else does, make the right tradeoffs and ensure that the entire development team understands this technology
+
+---
+
+## Write code for developers, not for machines
+#### Make sure that it's readable and can be understood by your co-developers. Make a comment if it seems like it needs a second pass to understand.
+
+---
+
+## Don't do C.Y.A.E (Cover your ass engineering)
+#### Don't throw your teammates under the bus, instead, try to help others out and make yourself accountable for them
+
+---
+
+## In conclusion,
+### as software developers, we often get stereotyped as hoodie-wearing, data-driven, introverted, geeky people who have little to no human contact, so it's easy for us to fall into that mindset. By practicing empathy, we are able to do our jobs better, as it helps us see things from other peoples' point of view and allows us to create solutions that benefit not just ourselves but other people around us as well.
+
+---
+
+#Thank you!
