@@ -8,7 +8,6 @@
 
 ---
 
-Empathy is:
 @ul[spaced text-white]
 - To feel how others feel
 - To make a connection with others
