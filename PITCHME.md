@@ -13,6 +13,16 @@
 
 ---
 
+## What benefits are there from being empathetic?
+
+@ul[spaced text-white]
+- You'll better understand other people's needs and where they are coming from
+- You'll have better communication and negotiation skills
+- You'll understand the impact of your words and actions on others
+@ulend
+
+---
+
 ## Why should we practice empathy in software engineering?
 
 
@@ -20,46 +30,31 @@ Despite it seeming like a pragmatic industry:
 @ul[spaced text-white]
 - Software is built by humans
 - Software is built with humans
-- Software is build for humans
+- Software is built for humans
 @ulend
 
 ---
-@title[Customize Slide Layout]
 
-@snap[west span-50]
-## Customize Slide Content Layout
-@snapend
+## Where does empathy fit in?
 
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
-
----?color=#E58537
-@title[Add A Little Imagination]
-
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
-@snapend
-
-@snap[west span-55]
 @ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
+- Planning & Retrospective
+- Designing
+- Development process
+- Leadership
 @ulend
-@snapend
 
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
+---
 
----?image=assets/img/presenter.jpg
+## How do you practice empathy?
 
-@snap[north span-100 headline]
-## Now It's Your Turn
-@snapend
+@ul[spaced text-white]
+- Listen
+- Find the deepest "Why"
+- Be vulnerable
+- Respect
+@ulend
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
+---
+
+## It's in the small things...
