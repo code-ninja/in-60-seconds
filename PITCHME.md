@@ -44,7 +44,7 @@ Despite it seeming like a pragmatic industry:
 ---
 
 ## Where does empathy fit in?
-![Iknowachuthink](assets/img/ume.gif)
+![Think](assets/img/think.gif)
 
 ---
 
@@ -58,7 +58,7 @@ Despite it seeming like a pragmatic industry:
 ---
 
 ## How do you practice empathy?
-![Empathize](assets/img/empppl.gif)
+![Perspectives](assets/img/perspectives.gif)
 
 ---
 
@@ -100,3 +100,4 @@ As software developers, we often get stereotyped as hoodie-wearing, data-driven,
 ---
 
 # Thanks for listening!
+![Feeling](assets/img/feeling.gif)
