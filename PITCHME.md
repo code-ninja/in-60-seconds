@@ -39,12 +39,23 @@
 ## Creating Slack Apps
 
 +++
+#### This is your app dashboard
 
-@img[](https://puu.sh/D1vCk/a0fff2974d.png)
+@snap[center span-50]
+@img[](https://puu.sh/D1ygM/d2617ab492.png)
+@snapend
 See: [Building Slack apps](https://api.slack.com/slack-apps)
 
 +++
+@snap[west span-50]
+@img[Sidebar](https://puu.sh/D1yjy/790b023b66.png)
+@snapend
+
+@snap[east span-50]
 @img[](https://puu.sh/D1vRL/66ea9878e9.png)
+@snapend
+
++++
 
 #### Save your app credentials, for example, in a *.env* file
 In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to lead these like so:
@@ -63,12 +74,16 @@ load_dotenv()
 +++
 
 #### Activate Incoming Webhooks for your app
-@snap[center span-40]
+@snap[center]
 @img[](https://puu.sh/D1xTn/b301770221.png)
 See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 @snapend
 
++++
+
 @img[Authorize App and choose the Channel](https://puu.sh/D1xZX/958aca4ec9.png)
+
+#### You will be given a unique Webhook URL *per channel*
 ```Bash
 # Sample webhook URL:
 https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
