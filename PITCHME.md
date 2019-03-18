@@ -37,7 +37,7 @@
 ---
 @title[Creating Slack Apps]
 
-## Creating Slack Apps
+## Let's create a Slack App!
 
 +++
 
@@ -65,7 +65,7 @@ See: [Building Slack apps](https://api.slack.com/slack-apps)
 Save your app credentials, for example, in a *.env* file
 In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to load these like so:
 
-```Variable
+```Bash
 # .env
 CLIENT_ID='XXXXXXXXXXX.XXXXXXXXXXXX'
 CLIENT_SECRET='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
@@ -76,7 +76,8 @@ VERIFICATION_TOKEN='XXXXXXXXXXXXXXXXXXXXXXXX'
 from dotenv import load_dotenv
 load_dotenv()
 ```
-```text
+```Bash
+# file structure
 .
 ├── .env
 └── settings.py
@@ -123,30 +124,21 @@ URL = (
 --
 @title[Creating Slackbots]
 
-## Creating Slack Apps
+## Let's Create a Bot for our Slack App
 
 +++
 @title[Overview]
+#### Overview:
 @ul
-
-- Plain text list item @note[Cool! Fragment specific speaker notes :)]
-- Rich **markdown** list *item*
-- Link [within](https://gitpitch.com) list item @note[Fragment specific speaker notes are optional.]
-
+- We will enable bots for our app.
+- We will create a Bot, which generates an OAth token.
+- We will use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
 @ulend
 
 +++
-@title[Bot User]
+```Bash
+# File structure for our bot
 
-@img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
-
-+++
-@title[OAuth Tokens]
-
-@img[center span-60](https://puu.sh/D1DR9/c917b0ea65.png)
-
-@title[File structure]
-```text
 ig_databot/
 ├── venv/  # Virtual Environment
 ├── ig_databot/plugins/
@@ -155,6 +147,27 @@ ig_databot/
 ├── run.py
 └── slackbot_settings.py
 ```
+
++++
+@title[Bot User]
+This is our Bot User's settings.
+@img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
+
+We can give it a custom name and @mention handle so it's easy to call.
+@box[message-box text-yellow center](Make sure to tick **Always Show my Bot as Online**)
+
++++
+@title[OAuth Token and Settings]
+
+@img[center span-60](https://puu.sh/D1Epy/2d46cd61c5.png)
+
+We need the *Bot User OAth Access Token* and save it to the **slackbot_settings.py** file
+```Python
+# slackbot_settings.py
+API_TOKEN = 'xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
+PLUGINS = ['plugins.ig_databot']
+```
+
 +++
 @title[Slackbot module and settings]
 I installed Python's [slackbot module](https://github.com/lins05/slackbot).
@@ -169,12 +182,9 @@ def hello(message):
 ```
 
 +++
-@title[Settings and Run file]
-```Python
-# slackbot_settings.py
-API_TOKEN = 'xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
-PLUGINS = ['plugins.ig_databot']
-```
+@[Run dot Py]
+We will have this script run in the background for our slackbot to work.
+(We can also have this installed as a service)
 ```Python
 # run.py
 from slackbot.bot import Bot
