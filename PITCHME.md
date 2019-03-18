@@ -103,8 +103,10 @@ https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 
 +++
 @title[Sample POST Request]
-#### Sample POST Request using Python
+Sample POST Request using Python
 ```Python
+# sample_webhook.py
+
 import json
 import requests
 
@@ -115,9 +117,13 @@ URL = (
     "/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
 )
 
-    requests.post(URL, data=data)
+requests.post(URL, data=data)
 ```
 
+Run the python file to send the message to Slack:
+```Bash
+(venv) $ python sample_webhook.py
+```
 @img[Post from Python](https://puu.sh/D1ybm/da5515bfb4.png)
 
 ---
