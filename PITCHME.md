@@ -182,21 +182,6 @@ PLUGINS = ['plugins.ig_databot']
 ```
 
 +++
-@title[Slackbot module and settings]
-I installed Python's [slackbot module](https://github.com/lins05/slackbot).
-
-```Python
-import re
-from slackbot.bot import listen_to, respond_to
-
-
-@respond_to('Ahoy', re.IGNORECASE)
-def hello(message):
-    message.reply('Matey!')
-```
-Then I created a script that *responds to* "ahoy" -- regardless of the case.
-
-+++
 @[Run dot Py]
 We will have this script run in the background for our slackbot to work.
 We can also have this installed as a service.
@@ -216,6 +201,21 @@ if __name__ == "__main__":
 ```Bash
 (venv) $ python ig_databot/run.py
 ```
+
++++
+@title[Slackbot module and settings]
+I installed Python's [slackbot module](https://github.com/lins05/slackbot).
+
+```Python
+import re
+from slackbot.bot import listen_to, respond_to
+
+
+@respond_to('Ahoy', re.IGNORECASE)
+def hello(message):
+    message.reply('Matey!')
+```
+Then I created a script that *responds to* "ahoy" -- regardless of the case.
 
 +++
 @title[Install to Workspace]
