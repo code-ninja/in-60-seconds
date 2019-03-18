@@ -73,11 +73,11 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 +++
 
-@snap[west span-30]
+@snap[north-west span-30]
 Authorize the App and choose the Channel
 @snapend
 
-@snap[east span-60]
+@snap[north-east span-60]
 @img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
 @snapend
 
