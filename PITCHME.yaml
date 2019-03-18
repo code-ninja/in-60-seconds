@@ -30,7 +30,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Empathy Maketh An Engineer"
 
 #
 # Published Setting
@@ -42,6 +42,6 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch In 60 Seconds"
-description : "A short tutorial introducing the power and simplicity of GitPitch, the markdown presentation service on Git."
+title : "Empathy Maketh An Engineer"
+description : "A short presentation on how even a little bit of empathy can help in our daily lives."
 thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
