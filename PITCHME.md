@@ -146,7 +146,7 @@ requests.post(URL, data=data)
 @title[Bot File Structure]
 
 @snap[north]
-### File Structure
+#### We need a few files for our bot to work
 @snapend
 
 ```Bash
