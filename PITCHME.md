@@ -40,13 +40,21 @@
 
 +++
 
+@snap[north]
 #### This is your app dashboard
+@snapend
 
-@img[west span-30](https://puu.sh/D1yjy/790b023b66.png)
+@snap[west span-30]
+@img[span-30](https://puu.sh/D1yjy/790b023b66.png)
+@snapend
 
-@img[east span-65](https://puu.sh/D1vRL/66ea9878e9.png)
+@snap[east span-65]
+@img[span-65](https://puu.sh/D1vRL/66ea9878e9.png)
+@snapend
 
+@snap[south]
 See: [Building Slack apps](https://api.slack.com/slack-apps)
+@snapend
 
 +++
 
