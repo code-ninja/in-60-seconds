@@ -137,7 +137,7 @@ requests.post(URL, data=data)
 @ul
 - Enable bots for our app.
 - Create a Bot, which generates an OAth token.
-- Use Python so that our bot can *listen_to* and *respond_to* messages from Slack.
+- Use Python so that our bot can @color[blue](*listen_to*) and @color[blue](*respond_to*) messages from Slack.
 - Install our App to our Workspace
 - Invite the Bot to a channel where it can respond to.
 @ulend
