@@ -39,6 +39,7 @@
 ## Creating Slack Apps
 
 +++
+
 #### This is your app dashboard
 
 @snap[west span-40]
@@ -49,17 +50,17 @@
 @img[](https://puu.sh/D1ygM/d2617ab492.png)
 @snapend
 
-See: [Building Slack apps](https://api.slack.com/slack-apps)
-
 +++
 
-@snap[west span-50]
+@snap[west span-30]
 @img[Sidebar](https://puu.sh/D1yjy/790b023b66.png)
 @snapend
 
-@snap[east span-50]
+@snap[east span-65]
 @img[](https://puu.sh/D1vRL/66ea9878e9.png)
 @snapend
+
+See: [Building Slack apps](https://api.slack.com/slack-apps)
 
 +++
 
@@ -87,11 +88,15 @@ See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 +++
 
-@snap[span-50]
-@img[Authorize App and choose the Channel](https://puu.sh/D1xZX/958aca4ec9.png)
+@snap[west span-50]
+#### Authorize the App and choose the Channel
 @snapend
 
-#### You will be given a unique Webhook URL *per channel*
+@snap[east span-50]
+@img[Authorize the App and choose the Channel](https://puu.sh/D1xZX/958aca4ec9.png)
+@snapend
+
+#### You will be given a **unique Webhook URL** *per channel*
 ```Bash
 # Sample webhook URL:
 https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
