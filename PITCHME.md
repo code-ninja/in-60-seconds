@@ -1,9 +1,10 @@
 ---?image=assets/img/logo/slackbot-logo.jpg&size=90%
 
+@title[Banner]
 @box[message-box text-yellow text-20 fragment](Using Slackbot in our Daily Workflow)
 
 ---
-
+@title[Introduction]
 #### Based off **Takanori Suzuki's**
 *Automate the Boring Stuff with Slackbot*
 #### PyCon APAC 2019 talk
@@ -11,7 +12,7 @@
 ![Takanori Suzuki](assets/img/takanory.jpg)
 
 ---
-@title[Discussion]
+@title[What We'll learn]
 
 @snap[north-west text-center span-50]
 #### We will learn how to integrate
@@ -40,6 +41,7 @@
 
 +++
 
+@title[Slack API Dashboard]
 @snap[north]
 #### This is your app dashboard
 <br />
@@ -59,10 +61,11 @@ See: [Building Slack apps](https://api.slack.com/slack-apps)
 
 +++
 
+@title[Tokens and .ENV File]
 Save your app credentials, for example, in a *.env* file
 In Python, I used the module [python_dotenv](https://github.com/theskumar/python-dotenv) to load these like so:
 
-```ENV
+```Variable
 # .env
 CLIENT_ID='XXXXXXXXXXX.XXXXXXXXXXXX'
 CLIENT_SECRET='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
@@ -80,14 +83,14 @@ load_dotenv()
 ```
 
 +++
-
+@title[Incoming Webhooks Intro]
 #### Activate Incoming Webhooks for your app
 @img[center span-60](https://puu.sh/D1xTn/b301770221.png)
 
 See: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 +++
-
+@title[Webhook URL]
 #### Authorize the App and choose the Channel
 @img[span-40](https://puu.sh/D1xZX/958aca4ec9.png)
 
@@ -99,7 +102,7 @@ https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
 +++
-
+@title[Sample POST Request]
 #### Sample POST Request using Python
 ```Python
 import json
