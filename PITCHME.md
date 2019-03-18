@@ -1,5 +1,6 @@
 # Empathy Maketh an Engineer
 #### A presentation inspired by Naren's talk during the PyCon APAC 2019
+Renzel Manlapaz
 
 ---
 
