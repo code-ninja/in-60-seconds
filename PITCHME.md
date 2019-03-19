@@ -137,7 +137,7 @@ requests.post(URL, data=data)
 @ul
 - Enable bots for our app.
 - Create a Bot, which generates an OAth token.
-- Use Python so that our bot can @color[blue](*listen_to*) and @color[blue](*respond_to*) messages from Slack.
+- Use Python so that our bot can @color[darkblue](*listen_to*) and @color[darkblue](*respond_to*) messages from Slack.
 - Install our App to our Workspace
 - Invite the Bot to a channel where it can respond to.
 @ulend
@@ -166,7 +166,8 @@ ig_databot/
 This is our Bot User's settings.
 @img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
 
-We can give it a custom name and an @handle so it's easy to call. Tick **Always Show my Bot as Online** as well.
+We can give it a custom name and an @handle so it's easy to call.
+Tick @color[darkblue](*Always Show my Bot as Online*) as well.
 
 +++
 @title[OAuth Token and Settings]
