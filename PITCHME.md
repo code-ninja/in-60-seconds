@@ -259,7 +259,7 @@ Let's test our bot:
 +++
 @title[Attachments]
 
-It also supports message attachments:
+#### It also supports message attachments:
 ```Python
 @respond_to('status', re.IGNORECASE)
 def status(message):
