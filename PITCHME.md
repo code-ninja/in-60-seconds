@@ -256,6 +256,35 @@ Let's test our bot:
 
 @img[center span-50](https://puu.sh/D24or/826743188f.png)
 
++++
+@title[Attachments]
+
+It also supports message attachments:
+```Python
+@respond_to('status', re.IGNORECASE)
+def status(message):
+    fields = [
+        {"title": "Date:", "value": "", "short": True},
+        {"title": "Status:", "value": "", "short": True},
+        {"title": "", "2019-03-18 00:52:11": "Start parser for Argentina", "short": True},
+        {"title": "", "2019-03-18 00:52:13": "Done parser for Argentina", "short": True},
+    ]
+    attachment = json.dumps([
+        {
+            "fallback": "Data Parser Status",
+            "title": "Data Parser Status",
+            "text": """Running log as of {}\n\n""".format(
+                '%02d/%02d/%04d %02d:%02d:%02d' % (currently)
+            ),
+            "color": "#004492",
+            "fields": fields
+        }
+    ])
+    message.send_webapi('', attachments)
+```
+@img[center span-50](https://puu.sh/D25k8/4eece403d2.png)
+
+
 ---?image=assets/img/presenter.jpg
 
 @snap[north span-100 headline]
