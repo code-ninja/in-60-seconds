@@ -235,6 +235,9 @@ def status(message):
     message.send_webapi('', attachments)
 ```
 
++++
+@title[Decorators]
+### Listen/Respond To
 @snap[south text-center text-3]
 A function decorated with *respond_to* is called when a message matching the pattern is sent to the bot (direct message or @botname in a channel/private channel chat)
 
