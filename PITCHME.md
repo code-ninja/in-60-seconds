@@ -233,11 +233,11 @@ def wazzaa(message):
 @title[Listen/Respond To]
 
 @snap[north span-100]
-@box[bg-blue text-yellow text-5](Default Reply#Besides specifying DEFAULT_REPLY in slackbot_settings.py, you can also decorate a function with the @color[darkblue](default_reply) decorator to make it the default reply handler, which is more handy.)
+@box[bg-blue text-yellow smaller-text rounded](Default Reply#Besides specifying DEFAULT_REPLY in slackbot_settings.py, you can also decorate a function with the @color[darkblue](default_reply) decorator to make it the default reply handler, which is more handy.)
 <br/>
-@box[bg-blue text-yellow text-5](Respond To#@color[darkblue](*respond_to*) is called when a message matching the pattern is sent to the bot (direct message or @botname in a channel/private channel chat))
+@box[bg-blue text-yellow smaller-text rounded](Respond To#@color[darkblue](*respond_to*) is called when a message matching the pattern is sent to the bot (direct message or @botname in a channel/private channel chat))
 <br/>
-@box[bg-blue text-yellow text-5](Listen To#@color[darkblue](*listen_to*) is called when a message matching the pattern is sent on a channel/private channel chat (not directly sent to the bot))
+@box[bg-blue text-yellow smaller-text rounded](Listen To#@color[darkblue](*listen_to*) is called when a message matching the pattern is sent on a channel/private channel chat (not directly sent to the bot))
 @snapend
 
 +++
