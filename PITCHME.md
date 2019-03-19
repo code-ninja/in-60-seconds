@@ -167,14 +167,14 @@ This is our Bot User's settings.
 @img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
 
 We can give it a custom name and an @handle so it's easy to call.
-Tick @color[darkblue](*Always Show my Bot as Online*) as well.
+Tick @color[darkblue](*Always Show my Bot as Online*), too.
 
 +++
 @title[OAuth Token and Settings]
+We need the *Bot User OAth Access Token* and save it to the **slackbot_settings.py** file
 
 @img[center span-60](https://puu.sh/D1Epy/2d46cd61c5.png)
 
-We need the *Bot User OAth Access Token* and save it to the **slackbot_settings.py** file
 ```Python
 # slackbot_settings.py
 API_TOKEN = 'xoxb-XXXXXXXXXXX-XXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXX'
