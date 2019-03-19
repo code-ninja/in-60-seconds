@@ -263,10 +263,7 @@ It also supports message attachments:
 ```Python
 @respond_to('status', re.IGNORECASE)
 def status(message):
-    fields = [
-        {"title": "Date:", "value": "", "short": True}, {"title": "Status:", "value": "", "short": True},
-        {"title": "", "value": "2019-03-18 00:52:11", "short": True}, {"title": "", "value": "Start parser for Argentina", "short": True},
-    ]
+    fields = get_data_parser_log()
     attachment = json.dumps([
         {
             "fallback": "Data Parser Status",
