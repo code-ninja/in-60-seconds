@@ -166,8 +166,7 @@ ig_databot/
 This is our Bot User's settings.
 @img[center span-60](https://puu.sh/D1DPe/03cce07104.png)
 
-We can give it a custom name and @mention handle so it's easy to call.
-Make sure to tick **Always Show my Bot as Online**.
+We can give it a custom name and @mention handle so it's easy to call. Tick **Always Show my Bot as Online** as well.
 
 +++
 @title[OAuth Token and Settings]
