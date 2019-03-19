@@ -219,7 +219,7 @@ def my_default_handler(message):
     message.reply('I currently have no response for that. Yet.')
 
 
-@listen_to('databot', re.IGNORECASE)
+@listen_to('help', re.IGNORECASE)
 def hand_shake(message):
     message.reply('Reporting for duty.')
 
@@ -248,6 +248,13 @@ In Slack, browse the  **Apps** then click Install when we find the app we create
 
 Then, let's invite our bot to a channel.
 @img[center span-50](https://puu.sh/D1F8A/2144761f88.png)
+
++++
+@title[Test Messages]
+
+Let's test our bot:
+
+@img[center span-50](https://puu.sh/D24or/826743188f.png)
 
 ---?image=assets/img/presenter.jpg
 
