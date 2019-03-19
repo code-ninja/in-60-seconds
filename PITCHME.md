@@ -264,18 +264,14 @@ It also supports message attachments:
 @respond_to('status', re.IGNORECASE)
 def status(message):
     fields = [
-        {"title": "Date:", "value": "", "short": True},
-        {"title": "Status:", "value": "", "short": True},
-        {"title": "", "2019-03-18 00:52:11": "Start parser for Argentina", "short": True},
-        {"title": "", "2019-03-18 00:52:13": "Done parser for Argentina", "short": True},
+        {"title": "Date:", "value": "", "short": True}, {"title": "Status:", "value": "", "short": True},
+        {"title": "", "value": "2019-03-18 00:52:11", "short": True}, {"title": "", "value": "Start parser for Argentina", "short": True},
     ]
     attachment = json.dumps([
         {
             "fallback": "Data Parser Status",
             "title": "Data Parser Status",
-            "text": """Running log as of {}\n\n""".format(
-                '%02d/%02d/%04d %02d:%02d:%02d' % (currently)
-            ),
+            "text": """Running log as of {}\n\n""".format(current_date)),
             "color": "#004492",
             "fields": fields
         }
