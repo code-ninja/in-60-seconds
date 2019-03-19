@@ -227,22 +227,17 @@ def hand_shake(message):
 @respond_to('Hello', re.IGNORECASE)
 def wazzaa(message):
     message.reply('Wazzaa!')
-
-
-@respond_to('status', re.IGNORECASE)
-def status(message):
-    attachments = send_data_parser_status()
-    message.send_webapi('', attachments)
 ```
 
 +++
 @title[Decorators]
+@snap[north]
 ### Listen/Respond To
-@snap[south text-center text-3]
+@snapend
+
 A function decorated with *respond_to* is called when a message matching the pattern is sent to the bot (direct message or @botname in a channel/private channel chat)
 
 A function decorated with *listen_to* is called when a message matching the pattern is sent on a channel/private channel chat (not directly sent to the bot)
-@snapend
 
 +++
 @title[Install to Workspace]
