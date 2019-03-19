@@ -259,7 +259,7 @@ Let's test our bot:
 +++
 @title[Attachments]
 
-@snap[center span-80 text-10]
+@snap[center span-80 text-05 text-center]
 It also supports message attachments:
 @snapend
 
