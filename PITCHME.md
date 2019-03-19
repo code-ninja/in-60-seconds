@@ -136,7 +136,7 @@ requests.post(URL, data=data)
 
 @ul
 - Enable bots for our app.
-- Create a Bot, which generates an OAth token.
+- Create a Bot, which generates an OAuth token.
 - Use Python so that our bot can @color[darkblue](*listen_to*) and @color[darkblue](*respond_to*) messages from Slack.
 - Install our App to our Workspace
 - Invite the Bot to a channel where it can respond to.
@@ -171,7 +171,7 @@ Tick @color[darkblue](*Always Show my Bot as Online*), too.
 
 +++
 @title[OAuth Token and Settings]
-We need the *Bot User OAth Access Token* and save it to the **slackbot_settings.py** file
+We need the *Bot User OAuth Access Token* and save it to the **slackbot_settings.py** file
 
 @img[center span-60](https://puu.sh/D1Epy/2d46cd61c5.png)
 
@@ -259,7 +259,7 @@ Let's test our bot:
 +++
 @title[Attachments]
 
-@snap[center span-80 text-05 text-center]
+@snap[center text-07 text-center]
 It also supports message attachments:
 @snapend
 
@@ -279,6 +279,7 @@ def status(message):
     message.send_webapi('', attachments)
 ```
 @img[center span-50](https://puu.sh/D25CX/2fa4f9209b.png)
+
 
 
 ---?image=assets/img/presenter.jpg
