@@ -275,7 +275,7 @@ def status(message):
     ])
     message.send_webapi('', attachments)
 ```
-@img[center span-50](https://puu.sh/D25k8/4eece403d2.png)
+@img[center span-50](https://puu.sh/D25CX/2fa4f9209b.png)
 
 
 ---?image=assets/img/presenter.jpg
