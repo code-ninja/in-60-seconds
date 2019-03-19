@@ -12,7 +12,7 @@
 ![Takanori Suzuki](assets/img/takanory.jpg)
 
 ---
-@title[What We'll learn]
+@title[What We'll Learn]
 
 @snap[north-west text-center span-50]
 #### We can integrate
@@ -259,7 +259,10 @@ Let's test our bot:
 +++
 @title[Attachments]
 
-#### It also supports message attachments:
+@snap[center span-80 text-10]
+It also supports message attachments:
+@snapend
+
 ```Python
 @respond_to('status', re.IGNORECASE)
 def status(message):
