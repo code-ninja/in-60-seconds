@@ -235,7 +235,7 @@ def wazzaa(message):
 ### Listen/Respond To
 @snapend
 
-@snap[text-3 span-80]
+@snap[text-3 span-100]
 A function decorated with @color[darkblue](*respond_to*) is called when a message matching the pattern is sent to the bot (direct message or @botname in a channel/private channel chat)
 <br />
 A function decorated with @color[darkblue](*listen_to*) is called when a message matching the pattern is sent on a channel/private channel chat (not directly sent to the bot)
