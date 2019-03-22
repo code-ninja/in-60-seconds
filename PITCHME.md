@@ -176,7 +176,7 @@ PLUGINS = ['plugins.ig_databot']
 ```
 
 +++
-@[Run dot Py]
+@title[Run dot Py]
 We will have this script run in the background for our slackbot to work.
 We can also have this installed as a service.
 ```Python
