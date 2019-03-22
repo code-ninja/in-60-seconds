@@ -14,25 +14,26 @@
 ---
 @title[What We'll Learn]
 
-@snap[north-west text-center span-50]
-#### We can integrate
+@snap[north text-center center]
+#### Today, we will learn how integrate
 @snapend
 
-@snap[center span-50]
+@snap[west span-50 text-right]
 @img[span-50 fragment](assets/img/logo/slack-logo.png)
 @snapend
 
-@snap[north-east span-50]
+<!-- @snap[north-east span-50]
 @img[span-35 fragment](assets/img/logo/jira-logo.png)
 @snapend
+ -->
 
-@snap[east span-50]
-@img[span-35 fragment](assets/img/logo/python-logo.png)
+@snap[east span-50 text-left]
+@img[span-50 fragment](assets/img/logo/python-logo.png)
 @snapend
 
-@snap[south-east span-50]
+<!-- @snap[south-east span-50]
 @img[span-35 fragment](assets/img/logo/shebang-logo.png)
-@snapend
+@snapend -->
 
 ---
 @title[Creating Slack Apps]
