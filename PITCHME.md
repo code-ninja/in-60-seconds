@@ -34,7 +34,7 @@ Orientation<br>and<br>Overview
 IG' Hiring Funnel:<br>
 @snapend
 
-@snap[west span-70]
+@snap[midpoint span-70]
 @ul
 - Source
 - CCAT
