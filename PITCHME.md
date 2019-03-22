@@ -144,8 +144,6 @@ requests.post(URL, data=data)
 @snapend
 
 ```Bash
-# File structure for our bot
-
 ig_databot/
 ├── venv/  # Virtual Environment
 ├── ig_databot/plugins/
