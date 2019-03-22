@@ -42,7 +42,7 @@ published : true
 # Syntax Highlighting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : mono-blue
+highlight : nord
 
 #
 # Background Settings
