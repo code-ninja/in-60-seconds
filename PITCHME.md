@@ -12,11 +12,11 @@ PyCon APAC 2019
 ---?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Heading]
 
-@snap[west left text-white]
+@snap[west left text-white span-50]
 What<br>He<br>Covered
 @snapend
 
-@snap[midpoint covered span-70]
+@snap[midpoint covered span-50]
 @ul
 - Orientation and Overview
 - General Advice
@@ -33,7 +33,7 @@ Orientation<br>and<br>Overview
 @snapend
 
 @snap[midpoint span-70]
-IG' Hiring Funnel:<br>
+IG's Hiring Funnel:<br><br>
 
 @ul
 - Source
