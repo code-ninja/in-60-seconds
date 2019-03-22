@@ -4,8 +4,8 @@
 ## @color[black](How to Ace<br>a Technical Interview)
 
 @snap[south docslink span-50]
-<p>By Jacob Kaplan-Moss</p>
-<p>PyCon APAC 2019</p>
+By Jacob Kaplan-Moss
+PyCon APAC 2019
 @snapend
 
 
@@ -17,13 +17,9 @@ What<br>he<br>covered
 @snapend
 
 @snap[east span-70]
-<p>Orientation and Overview</p>
-<p>General Advice</p>
-<p>Technical Interview Techniques</p>
-@snapend
-
-@snap[north-east template-note text-gray]
-Sidebar with heading body template.
+Orientation and Overview
+General Advice
+Technical Interview Techniques
 @snapend
 
 
@@ -35,16 +31,13 @@ Orientation<br>and<br>Overview
 @snapend
 
 @snap[east span-70]
-<p>Source</p>
-<p>CCAT</p>
-<p>Technical Exam</p>
-<p>Technical Interview</p>
-<p>Karat Exam</p>
-<p>Selection</p> 
-@snapend
-
-@snap[north-east template-note text-blue]
-ImportGenius' Hiring Funnel
+ImportGenius' Hiring Funnel:
+Source
+CCAT
+Technical Exam
+Technical Interview
+Karat Exam
+Selection 
 @snapend
 
 
@@ -56,9 +49,9 @@ General<br>Advice
 @snapend
 
 @snap[east span-70]
-<p>Prepare</p>
-<p>Ask Questions</p>
-<p>Take Notes</p>
+Prepare
+Ask Questions
+Take Notes
 @snapend
 
 ---?image=assets/img/blue.jpg&position=left&size=30% 100%
@@ -71,14 +64,7 @@ Technical<br>Interview<br>Techniques
 ![Techniques](assets/img/techniques.png)
 
 @snap[east span-70]
-Duis aute irure dolor in reprehenderit in voluptate velit @size[1.25em](esse cillum) dolore eu fugiat nulla pariatur.
-<br><br>
-Excepteur sint occaecat cupidatat non proident, @css[text-pink](sunt in culpa) qui officia deserunt mollit anim id est laborum.
-@snapend
-
-@snap[north-east template-note text-gray]
-Sidebar with text body template.
-@snapend
+![Techniques](assets/img/techniques.png)
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 
