@@ -30,14 +30,20 @@ Technical Interview Techniques
 Orientation<br>and<br>Overview
 @snapend
 
-@snap[east span-70]
-ImportGenius' Hiring Funnel:<br>
-Source<br>
-CCAT<br>
-Technical Exam<br>
-Technical Interview<br>
-Karat Exam<br>
-Selection
+@snap[north span-70]
+IG' Hiring Funnel:<br>
+@snapend
+
+@snap[west span-70]
+@ul
+- Source
+- CCAT
+- Technical Exam
+- Technical Interview
+- Karat Exam
+- Selection
+@ulend
+
 @snapend
 
 
