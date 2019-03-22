@@ -1,12 +1,10 @@
 ---?image=assets/img/pencils.jpg
 @title[Sidebar Templates]
 
-## @color[black](Sidebar<br>Slide Templates)
-
-@fa[arrow-down text-black]
+## @color[black](How to Ace<br>a Technical Interview)
 
 @snap[south docslink span-50]
-[The Template Docs](https://gitpitch.com/docs/the-template)
+By Jacob Kaplan-Moss
 @snapend
 
 
@@ -14,11 +12,13 @@
 @title[Sidebar + Heading]
 
 @snap[west text-white]
-@size[3em](1.)
+What he covered
 @snapend
 
 @snap[east span-70]
-<h2>Lorem ipsum @css[text-blue](dolor)</h2>
+<p>Orientation and Overview</p>
+<p>General Advice</p>
+<p>Technical Interview Techniques</p>
 @snapend
 
 @snap[north-east template-note text-gray]
@@ -30,15 +30,20 @@ Sidebar with heading body template.
 @title[Sidebar + Image Body]
 
 @snap[west text-white]
-@size[3em](2.)
+Orientation and Overview
 @snapend
 
 @snap[east span-70]
-![SNOWMAN](assets/img/techniques.png)
+<p>Source</p>
+<p>CCAT</p>
+<p>Technical Exam</p>
+<p>Technical Interview</p>
+<p>Karat Exam</p>
+<p>Selection</p> 
 @snapend
 
 @snap[north-east template-note text-gray]
-Sidebar with image body template.
+ImportGenius' Hiring Funnel
 @snapend
 
 
@@ -46,19 +51,14 @@ Sidebar with image body template.
 @title[Sidebar + Mixed Body]
 
 @snap[west text-white]
-@size[3em](3.)
+General Advice
 @snapend
 
 @snap[east span-70]
-@fa[rocket fa-5x text-orange]
-<br><br>
-We Have Lift Off
+<p>Prepare</p>
+<p>Ask Questions</p>
+<p>Take Notes</p>
 @snapend
-
-@snap[north-east template-note text-gray]
-Sidebar with mixed body template.
-@snapend
-
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Text Body]
