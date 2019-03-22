@@ -142,5 +142,5 @@ Notes
 @title[Sidebar + Heading]
 
 @snap[midpoint span-70]
-## "Companies mostly suck at hiring<br>but not us!"
+## "Companies mostly suck at hiring,<br>but not us!"
 @snapend
