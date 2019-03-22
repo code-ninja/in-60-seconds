@@ -115,14 +115,14 @@ Take-Home<br>Exercises
 “We will see more realistic results if we give people more realistic conditions.”
 @snapend
 
----?image=assets/img/blue.jpg&position=left&size=30% 100%
+---?image=assets/img/orange.jpg&position=left&size=30% 100%
 @title[Sidebar + Heading]
 
 @snap[west left text-white]
 Notes
 @snapend
 
-@snap[midpoint covered span-150]
+@snap[midpoint covered span-70]
 @ul
 - Everyone makes mistakes,<br>but not all the time
 - Honesty is important
@@ -134,4 +134,9 @@ Notes
 ---?image=assets/img/pencils.jpg
 @title[Sidebar + Heading]
 
-Companies mostly suck at hiring
+# "Companies mostly suck at hiring"
+
+---?image=assets/img/pencils.jpg
+@title[Sidebar + Heading]
+
+# "Companies mostly suck at hiring<br>but not ImportGenius"
