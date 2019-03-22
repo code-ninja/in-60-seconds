@@ -134,9 +134,13 @@ Notes
 ---?image=assets/img/pencils.jpg
 @title[Sidebar + Heading]
 
-# "Companies mostly suck at hiring"
+@snap[midpoint span-70]
+## "Companies mostly suck at hiring"
+@snapend
 
 ---?image=assets/img/pencils.jpg
 @title[Sidebar + Heading]
 
-# "Companies mostly suck at hiring<br>but not ImportGenius"
+@snap[midpoint span-70]
+## "Companies mostly suck at hiring<br>but not ImportGenius"
+@snapend
