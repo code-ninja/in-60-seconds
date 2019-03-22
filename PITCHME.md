@@ -1,48 +1,78 @@
-# Let's Get Started
+---?image=assets/img/pencils.jpg
+@title[Sidebar Templates]
 
----
+## @color[black](Sidebar<br>Slide Templates)
 
-## Add Some Slide Candy
+@fa[arrow-down text-black]
 
-![](assets/img/presentation.png)
-
----
-@title[Customize Slide Layout]
-
-@snap[west span-50]
-## Customize Slide Content Layout
+@snap[south docslink span-50]
+[The Template Docs](https://gitpitch.com/docs/the-template)
 @snapend
 
-@snap[east span-50]
-![](assets/img/presentation.png)
+
++++?image=assets/img/blue.jpg&position=left&size=30% 100%
+@title[Sidebar + Heading]
+
+@snap[west text-white]
+@size[3em](1.)
 @snapend
 
----?color=#E58537
-@title[Add A Little Imagination]
-
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
+@snap[east span-70]
+<h2>Lorem ipsum @css[text-blue](dolor)</h2>
 @snapend
 
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
+@snap[north-east template-note text-gray]
+Sidebar with heading body template.
 @snapend
 
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
+
++++?image=assets/img/orange.jpg&position=left&size=30% 100%
+@title[Sidebar + Image Body]
+
+@snap[west text-white]
+@size[3em](2.)
 @snapend
 
----?image=assets/img/presenter.jpg
-
-@snap[north span-100 headline]
-## Now It's Your Turn
+@snap[east span-70]
+![SNOWMAN](assets/img/techniques.png)
 @snapend
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+@snap[north-east template-note text-gray]
+Sidebar with image body template.
+@snapend
+
+
++++?image=assets/img/green.jpg&position=left&size=30% 100%
+@title[Sidebar + Mixed Body]
+
+@snap[west text-white]
+@size[3em](3.)
+@snapend
+
+@snap[east span-70]
+@fa[rocket fa-5x text-orange]
+<br><br>
+We Have Lift Off
+@snapend
+
+@snap[north-east template-note text-gray]
+Sidebar with mixed body template.
+@snapend
+
+
++++?image=assets/img/blue.jpg&position=left&size=30% 100%
+@title[Sidebar + Text Body]
+
+@snap[west text-white]
+@size[3em](4.)
+@snapend
+
+@snap[east span-70]
+Duis aute irure dolor in reprehenderit in voluptate velit @size[1.25em](esse cillum) dolore eu fugiat nulla pariatur.
+<br><br>
+Excepteur sint occaecat cupidatat non proident, @css[text-pink](sunt in culpa) qui officia deserunt mollit anim id est laborum.
+@snapend
+
+@snap[north-east template-note text-gray]
+Sidebar with text body template.
 @snapend
