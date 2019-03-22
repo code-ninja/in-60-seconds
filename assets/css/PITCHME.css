@@ -27,7 +27,6 @@
   font-weight: bold;
 }
 
-.template-note {
-  letter-spacing: 0.1em;
-  font-size: 0.4em !important;
+.left {
+  margin-left: 0px;
 }

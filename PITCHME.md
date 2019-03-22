@@ -12,8 +12,8 @@ PyCon APAC 2019
 ---?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Heading]
 
-@snap[west text-white]
-What<br>He<br>covered
+@snap[west left text-white]
+What<br>He<br>Covered
 @snapend
 
 @snap[east span-70]
@@ -22,19 +22,28 @@ General Advice<br>
 Technical Interview Techniques
 @snapend
 
+@snap[midpoint span-70]
+IG' Hiring Funnel:<br>
+
+@ul
+- Orientation and Overview
+- General Advice
+- Technical Interview Techniques
+@ulend
+
+@snapend
+
 
 ---?image=assets/img/orange.jpg&position=left&size=30% 100%
 @title[Sidebar + Image Body]
 
-@snap[west text-white]
+@snap[west left text-white]
 Orientation<br>and<br>Overview
 @snapend
 
-@snap[north span-70]
-IG' Hiring Funnel:<br>
-@snapend
-
 @snap[midpoint span-70]
+IG' Hiring Funnel:<br>
+
 @ul
 - Source
 - CCAT
@@ -50,11 +59,11 @@ IG' Hiring Funnel:<br>
 ---?image=assets/img/green.jpg&position=left&size=30% 100%
 @title[Sidebar + Mixed Body]
 
-@snap[west text-white]
+@snap[west left text-white]
 General<br>Advice
 @snapend
 
-@snap[east span-70]
+@snap[midpoint span-70]
 Prepare<br>
 Ask Questions<br>
 Take Notes
@@ -63,7 +72,7 @@ Take Notes
 ---?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Text Body]
 
-@snap[west text-white]
+@snap[west left text-white]
 Technical<br>Interview<br>Techniques
 @snapend
 
@@ -73,7 +82,7 @@ Technical<br>Interview<br>Techniques
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 
-@snap[west text-white]
+@snap[west left text-white]
 Behavioral
 @snapend
 
@@ -83,7 +92,7 @@ Behavioral
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 
-@snap[west text-white]
+@snap[west left text-white]
 Take-Home<br>Exercises
 @snapend
 
@@ -93,7 +102,7 @@ Take-Home<br>Exercises
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 
-@snap[west text-white]
+@snap[west left text-white]
 Live<br>Coding
 @snapend
 
