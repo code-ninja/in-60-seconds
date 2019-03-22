@@ -13,12 +13,12 @@ PyCon APAC 2019
 @title[Sidebar + Heading]
 
 @snap[west text-white]
-What<br>he<br>covered
+What<br>He<br>covered
 @snapend
 
 @snap[east span-70]
-Orientation and Overview
-General Advice
+Orientation and Overview<br>
+General Advice<br>
 Technical Interview Techniques
 @snapend
 
@@ -31,13 +31,13 @@ Orientation<br>and<br>Overview
 @snapend
 
 @snap[east span-70]
-ImportGenius' Hiring Funnel:
-Source
-CCAT
-Technical Exam
-Technical Interview
-Karat Exam
-Selection 
+ImportGenius' Hiring Funnel:<br>
+Source<br>
+CCAT<br>
+Technical Exam<br>
+Technical Interview<br>
+Karat Exam<br>
+Selection
 @snapend
 
 
@@ -49,8 +49,8 @@ General<br>Advice
 @snapend
 
 @snap[east span-70]
-Prepare
-Ask Questions
+Prepare<br>
+Ask Questions<br>
 Take Notes
 @snapend
 
@@ -61,10 +61,9 @@ Take Notes
 Technical<br>Interview<br>Techniques
 @snapend
 
-![Techniques](assets/img/techniques.png)
-
 @snap[east span-70]
 ![Techniques](assets/img/techniques.png)
+@snapend
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 
@@ -83,7 +82,7 @@ Take-Home<br>Exercises
 @snapend
 
 @snap[east span-70]
-“We will see more realistic results if we give people more realistic conditions”
+“We will see more realistic results if we give people more realistic conditions.”
 @snapend
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
