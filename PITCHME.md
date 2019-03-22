@@ -16,11 +16,11 @@ PyCon APAC 2019
 What<br>He<br>Covered
 @snapend
 
-@snap[midpoint span-90]
+@snap[midpoint covered span-70]
 @ul
 - Orientation and Overview
 - General Advice
-- Technical Interview<br>Techniques
+- Technical Interview Techniques
 @ulend
 @snapend
 

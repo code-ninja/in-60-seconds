@@ -28,5 +28,9 @@
 }
 
 .left {
-  margin-left: -5px !important;
+  margin-left: -50px !important;
+}
+
+.covered {
+  margin-left: 50px !important;
 }
