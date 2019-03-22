@@ -5,11 +5,11 @@
 
 @snap[south docslink span-50]
 <p>By Jacob Kaplan-Moss</p>
-<p>PyCon APAC 2019 (02/23/2019)</p>
+<p>PyCon APAC 2019</p>
 @snapend
 
 
-+++?image=assets/img/blue.jpg&position=left&size=30% 100%
+---?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Heading]
 
 @snap[west text-white]
@@ -27,7 +27,7 @@ Sidebar with heading body template.
 @snapend
 
 
-+++?image=assets/img/orange.jpg&position=left&size=30% 100%
+---?image=assets/img/orange.jpg&position=left&size=30% 100%
 @title[Sidebar + Image Body]
 
 @snap[west text-white]
@@ -43,12 +43,12 @@ Orientation<br>and<br>Overview
 <p>Selection</p> 
 @snapend
 
-@snap[north-west template-note text-blue]
+@snap[north-east template-note text-blue]
 ImportGenius' Hiring Funnel
 @snapend
 
 
-+++?image=assets/img/green.jpg&position=left&size=30% 100%
+---?image=assets/img/green.jpg&position=left&size=30% 100%
 @title[Sidebar + Mixed Body]
 
 @snap[west text-white]
@@ -61,12 +61,14 @@ General<br>Advice
 <p>Take Notes</p>
 @snapend
 
-+++?image=assets/img/blue.jpg&position=left&size=30% 100%
+---?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Text Body]
 
 @snap[west text-white]
-@size[3em](4.)
+Technical<br>Interview<br>Techniques
 @snapend
+
+![Techniques](assets/img/techniques.png)
 
 @snap[east span-70]
 Duis aute irure dolor in reprehenderit in voluptate velit @size[1.25em](esse cillum) dolore eu fugiat nulla pariatur.
@@ -76,4 +78,34 @@ Excepteur sint occaecat cupidatat non proident, @css[text-pink](sunt in culpa) q
 
 @snap[north-east template-note text-gray]
 Sidebar with text body template.
+@snapend
+
++++?image=assets/img/blue.jpg&position=left&size=30% 100%
+
+@snap[west text-white]
+Behavioral
+@snapend
+
+@snap[east span-70]
+“Past performance predicts future behavior.”
+@snapend
+
++++?image=assets/img/blue.jpg&position=left&size=30% 100%
+
+@snap[west text-white]
+Take-Home<br>Exercises
+@snapend
+
+@snap[east span-70]
+“We will see more realistic results if we give people more realistic conditions”
+@snapend
+
++++?image=assets/img/blue.jpg&position=left&size=30% 100%
+
+@snap[west text-white]
+Live<br>Coding
+@snapend
+
+@snap[east span-70]
+“The best way to predict if someone can code is… to ask them to code.”
 @snapend
