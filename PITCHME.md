@@ -4,7 +4,8 @@
 ## @color[black](How to Ace<br>a Technical Interview)
 
 @snap[south docslink span-50]
-By Jacob Kaplan-Moss
+<p>By Jacob Kaplan-Moss</p>
+<p>PyCon APAC 2019 (02/23/2019)</p>
 @snapend
 
 
@@ -12,7 +13,7 @@ By Jacob Kaplan-Moss
 @title[Sidebar + Heading]
 
 @snap[west text-white]
-What he covered
+What<br>he<br>covered
 @snapend
 
 @snap[east span-70]
@@ -30,7 +31,7 @@ Sidebar with heading body template.
 @title[Sidebar + Image Body]
 
 @snap[west text-white]
-Orientation and Overview
+Orientation<br>and<br>Overview
 @snapend
 
 @snap[east span-70]
@@ -42,7 +43,7 @@ Orientation and Overview
 <p>Selection</p> 
 @snapend
 
-@snap[north-east template-note text-gray]
+@snap[north-west template-note text-blue]
 ImportGenius' Hiring Funnel
 @snapend
 
@@ -51,7 +52,7 @@ ImportGenius' Hiring Funnel
 @title[Sidebar + Mixed Body]
 
 @snap[west text-white]
-General Advice
+General<br>Advice
 @snapend
 
 @snap[east span-70]
