@@ -28,5 +28,5 @@
 }
 
 .left {
-  margin-left: 0px;
+  left: -5px !important;
 }

@@ -16,14 +16,7 @@ PyCon APAC 2019
 What<br>He<br>Covered
 @snapend
 
-@snap[east span-70]
-Orientation and Overview<br>
-General Advice<br>
-Technical Interview Techniques
-@snapend
-
 @snap[midpoint span-70]
-IG' Hiring Funnel:<br>
 
 @ul
 - Orientation and Overview
@@ -64,9 +57,11 @@ General<br>Advice
 @snapend
 
 @snap[midpoint span-70]
-Prepare<br>
-Ask Questions<br>
-Take Notes
+@ul
+- Prepare
+- Ask Questions
+- Take Notes
+@ulend
 @snapend
 
 ---?image=assets/img/blue.jpg&position=left&size=30% 100%
