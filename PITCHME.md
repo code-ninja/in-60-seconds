@@ -1,11 +1,11 @@
 ---?image=assets/img/pencils.jpg
 @title[Sidebar Templates]
 
-### @color[black](How to Ace<br>a Technical Interview)
+## @color[black](How to Ace<br>a Technical Interview)
 
-@snap[south span-50]
-<h4>Presented by Jacob Kaplan-Moss</h4>
-<h4>PyCon APAC 2019</h4>
+@snap[south span-100]
+Presented by Jacob Kaplan-Moss<br>
+PyCon APAC 2019
 @snapend
 
 
@@ -16,7 +16,7 @@
 What<br>He<br>Covered
 @snapend
 
-@snap[midpoint covered span-150]
+@snap[midpoint covered span-70]
 @ul
 - Orientation and Overview
 - General Advice
@@ -90,7 +90,7 @@ Behavioral
 @snapend
 
 @snap[east span-70]
-Problem solving<br>
+Problem Solving<br>
 Refactoring<br>
 Debugging
 @snapend
@@ -124,7 +124,7 @@ Notes
 
 @snap[midpoint covered span-150]
 @ul
-- Everyone makes mistakes, but not all the time
+- Everyone makes mistakes,<br>but not all the time
 - Honesty is important
 - Interaction matters
 - Giving feedback helps
