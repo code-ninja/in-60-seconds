@@ -1,22 +1,22 @@
 ---?image=assets/img/pencils.jpg
 @title[Sidebar Templates]
 
-## @color[black](How to Ace<br>a Technical Interview)
+### @color[black](How to Ace<br>a Technical Interview)
 
-@snap[south docslink span-50]
-By Jacob Kaplan-Moss
-PyCon APAC 2019
+@snap[south span-50]
+<h4>Presented by Jacob Kaplan-Moss</h4>
+<h4>PyCon APAC 2019</h4>
 @snapend
 
 
 ---?image=assets/img/blue.jpg&position=left&size=30% 100%
 @title[Sidebar + Heading]
 
-@snap[west left text-white span-50]
+@snap[west left text-white]
 What<br>He<br>Covered
 @snapend
 
-@snap[midpoint covered span-50]
+@snap[midpoint covered span-150]
 @ul
 - Orientation and Overview
 - General Advice
@@ -86,11 +86,13 @@ Behavioral
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
 
 @snap[west left text-white]
-Take-Home<br>Exercises
+Behavioral
 @snapend
 
 @snap[east span-70]
-“We will see more realistic results if we give people more realistic conditions.”
+Problem solving<br>
+Refactoring<br>
+Debugging
 @snapend
 
 +++?image=assets/img/blue.jpg&position=left&size=30% 100%
@@ -102,3 +104,34 @@ Live<br>Coding
 @snap[east span-70]
 “The best way to predict if someone can code is… to ask them to code.”
 @snapend
+
++++?image=assets/img/blue.jpg&position=left&size=30% 100%
+
+@snap[west left text-white]
+Take-Home<br>Exercises
+@snapend
+
+@snap[east span-70]
+“We will see more realistic results if we give people more realistic conditions.”
+@snapend
+
+---?image=assets/img/blue.jpg&position=left&size=30% 100%
+@title[Sidebar + Heading]
+
+@snap[west left text-white]
+Notes
+@snapend
+
+@snap[midpoint covered span-150]
+@ul
+- Everyone makes mistakes, but not all the time
+- Honesty is important
+- Interaction matters
+- Giving feedback helps
+@ulend
+@snapend
+
+---?image=assets/img/pencils.jpg
+@title[Sidebar + Heading]
+
+Companies mostly suck at hiring
